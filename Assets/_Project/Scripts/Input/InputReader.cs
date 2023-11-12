@@ -33,10 +33,11 @@ namespace Platformer
             inputActions.Enable();
         }
 
-        public void OnFire(InputAction.CallbackContext context)
-        {
-            Move.Invoke(context.ReadValue<Vector2>());
-        }
+        //public void OnFire(InputAction.CallbackContext context)
+        //{
+            //Move.Invoke(context.ReadValue<Vector2>());
+        //}
+        
 
         public void OnJump(InputAction.CallbackContext context)
         {
